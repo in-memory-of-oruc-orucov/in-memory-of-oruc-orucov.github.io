@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type= "text/css" href="static\styles\style_for_gallery.css" /> 
+    <title>Galereya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class = "off-screen-menu">
+          <ul style="list-style-type:none;">
+            <li>
+              <a href="index.html" class="nav-link" style="color:white">Haqqında</a>
+            </li>
+            <li>
+              <a href="in_memory.html" class="nav-link" style="color:white">Nəvələrindən</a>
+            </li>
+            <li>
+              <a href="gallery.html" class="nav-link" style="color:white">Galereya</a>
+            </li>
+          </ul>
+        </div>
+        <div class = "ham-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <div class="m-p-g">
+            <div class="m-p-g__thumbs" data-google-image-layout data-max-height="400">
+                <img src="static\images\6f65f357-0dc7-4ee6-b134-d6567164cb4b.jpeg" data-full="static\images\6f65f357-0dc7-4ee6-b134-d6567164cb4b.jpeg" class="m-p-g__thumbs-img" />   
+                <img src="static\images\454d9b42-d26a-4f6b-bd73-a37a8966b417.jpeg" data-full="static\images\454d9b42-d26a-4f6b-bd73-a37a8966b417.jpeg" class="m-p-g__thumbs-img" />
+                <img src="static\images\bacf9294-5769-4ca2-ade6-b4ce9e9d612e.jpeg" data-full="static\images\bacf9294-5769-4ca2-ade6-b4ce9e9d612e.jpeg" class="m-p-g__thumbs-img" />
+                <img src="static\images\e2624b13-33c4-47fd-942c-64ba1922235c.jpeg" data-full="static\images\e2624b13-33c4-47fd-942c-64ba1922235c.jpeg" class="m-p-g__thumbs-img" />
+                <img src="static\images\ef72ee47-294c-400a-ae84-ca6a5a37684f.jpeg" data-full="static\images\ef72ee47-294c-400a-ae84-ca6a5a37684f.jpeg" class="m-p-g__thumbs-img" />
+                <img src="static\images\a213ec86-0dd3-49fb-943c-aa881eae3e10.jpeg" data-full="static\images\a213ec86-0dd3-49fb-943c-aa881eae3e10.jpeg" class="m-p-g__thumbs-img" />
+                <img src="static\images\fd332e76-7796-4f05-8441-d77a95ae4c90.jpeg" data-full="static\images\fd332e76-7796-4f05-8441-d77a95ae4c90.jpeg" class="m-p-g__thumbs-img" />
+
+                <img src="static\images\2a69f49c-8184-4d9f-a737-2eee29426e4d.jpeg" data-full="static\images\2a69f49c-8184-4d9f-a737-2eee29426e4d.jpeg" class="m-p-g__thumbs-img" />
+                <img src="static\images\5ec910e1-2ecb-4ec0-95fd-a3fb75bdce73.jpeg" data-full="static\images\5ec910e1-2ecb-4ec0-95fd-a3fb75bdce73.jpeg" class="m-p-g__thumbs-img" />
+                <img src="static\images\61a8a03c-02e1-4666-8033-15dcaa5394dd.jpeg" data-full="static\images\61a8a03c-02e1-4666-8033-15dcaa5394dd.jpeg" class="m-p-g__thumbs-img" />
+                <img src="static\images\683b85f2-920a-41ca-b92e-24ca2782db42.jpeg" data-full="static\images\683b85f2-920a-41ca-b92e-24ca2782db42.jpeg" class="m-p-g__thumbs-img" />
+                <img src="static\images\046305c0-51ad-4782-9d6f-cb4e8759d229.jpeg" data-full="static\images\046305c0-51ad-4782-9d6f-cb4e8759d229.jpeg" class="m-p-g__thumbs-img" />
+                <img src="static\images\a89a5c15-74bf-439f-a010-922390c32d6f.jpeg" data-full="static\images\a89a5c15-74bf-439f-a010-922390c32d6f.jpeg" class="m-p-g__thumbs-img" />
+                <img src="static\images\cc4535ab-8d4f-4d45-9777-941da3eb5fbe.jpeg" data-full="static\images\cc4535ab-8d4f-4d45-9777-941da3eb5fbe.jpeg" class="m-p-g__thumbs-img" />
+                <img src="static\images\60589dfc-0092-4d25-b5c7-8cc77f69b5e9.jpeg" data-full="static\images\60589dfc-0092-4d25-b5c7-8cc77f69b5e9.jpeg" class="m-p-g__thumbs-img" />
+                <img src="static\images\a213ec86-0dd3-49fb-943c-aa881eae3e10.jpeg" data-full="static\images\4009f466-110f-458a-8d12-cd07ccdea9e0.jpeg" class="m-p-g__thumbs-img" />
+                <img src="static\images\0ad3d291-2990-4c77-94b0-7b7a98dce1e1.jpeg" data-full="static\images\0ad3d291-2990-4c77-94b0-7b7a98dce1e1.jpeg" class="m-p-g__thumbs-img" />
+
+                <img src="static\images\20161011_121201.jpg" data-full="static\images\20161011_121201.jpg" class="m-p-g__thumbs-img" />
+            </div>
+            <div class="m-p-g__fullscreen"></div>
+        </div>
+        <script>
+            var elem = document.querySelector('.m-p-g');
+            document.addEventListener('DOMContentLoaded', function() {
+                var gallery = new MaterialPhotoGallery(elem);
+            });
+        </script>
+        <!-- partial -->
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/material-photo-gallery.min.js'></script>
+    </main>
+    <br>
+    <footer>
+        <center><p>Copyright © 2024 Orucovlar ailəsi</p></center>
+    </footer>
+  </body>
+  <script type="text/javascript" src="dynamic\selectFromMenu.js"></script>   
+</html>
